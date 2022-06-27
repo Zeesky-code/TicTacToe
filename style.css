@@ -1,0 +1,38 @@
+:root {
+    --main: rgb(34, 3, 27);
+    --light:rgba(34, 3, 27, 0.644);
+}
+*{
+    box-sizing: border-box;
+    height:100%;
+    margin:0;
+}
+body{
+    display: grid;
+    grid-template-rows: auto 4fr auto;
+}
+header{
+    background-color: var(--main);
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    padding: 10px;
+    background-color: var(--main);
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.footer-text{
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.brands{
+    align-content: left;
+}
