@@ -1,0 +1,1 @@
+A simple TicTacToe game to practice my basic knowledge of Javascript.
